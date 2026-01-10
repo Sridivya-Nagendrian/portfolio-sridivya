@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sridivya N | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👩‍💻</text></svg>">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@latest/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Devicon for official tech icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    
+    <!-- AOS for animations -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Page Loader -->
+<div id="page-loader">
+    <div class="loader-content">
+        <div class="spinner"></div>
+        <p class="typing-text">LOADING... PLEASE WAIT.</p>
+    </div>
+</div>
+
+<nav class="navbar navbar-expand-lg fixed-top portfolio-nav">
+  <div class="container-fluid px-lg-5 px-3">
+    
+    <!-- BRAND LOGO -->
+    <a class="navbar-brand">
+        <span class="brand-logo">SN</span>
+    </a>
+    
+    <!-- HAMBURGER MENU -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- MENU ITEMS -->
+    <div class="collapse navbar-collapse" id="navbarMenu">
+      <ul class="navbar-nav ms-auto gap-lg-4 gap-3">
+        <li class="nav-item"><a class="nav-link nav-animate active" href="#home">HOME</a></li>
+        <li class="nav-item"><a class="nav-link nav-animate" href="#skills">SKILLS</a></li>
+        <li class="nav-item"><a class="nav-link nav-animate" href="#experience">EXPERIENCE</a></li>
+        <li class="nav-item"><a class="nav-link nav-animate" href="#projects">PROJECTS</a></li>
+        <li class="nav-item"><a class="nav-link nav-animate" href="#contact">CONTACT</a></li>
+      </ul>
+    </div>
+
+  </div>
+</nav>
+
+<!-- Back to Top Button -->
+<button class="back-to-top" id="backToTop">
+  <i class="bi bi-chevron-up"></i>
+</button>
+
+<!-- Floating background elements -->
+<div class="floating-shapes">
+    <div class="shape shape-1"></div>
+    <div class="shape shape-2"></div>
+    <div class="shape shape-3"></div>
+    <div class="shape shape-4"></div>
+</div>
+
+<!-- Main Content Container -->
+<main class="main-content">
+  <!-- HOME/HERO SECTION -->
+  <section class="section hero-section" id="home">
+    <div class="container-fluid px-lg-5 px-3">
+        <div class="row align-items-center flex-lg-row flex-column-reverse">
+            
+            <!-- TEXT CONTENT - Appears second on mobile -->
+            <div class="col-lg-6 col-md-12 col-sm-12 hero-text order-lg-1 order-2">
+                <h5 class="animate-text" data-text="Hello, I'm">Hello, I'm</h5>
+                <h1 class="animate-text" data-text="Sridivya N"><strong>Sridivya N</strong></h1>
+                <h2 class="animate-text" data-text="Programmer Analyst">Programmer Analyst</h2>
+                <p class="animate-paragraph">Technically proficient professional with 6+ months of experience in Agile software development, production debugging, and application support. Expertise spans SQL, JavaScript, REST APIs, and data management.</p>
+                <p class="animate-paragraph">Passionate about building scalable solutions and seeking to transition into a Software Engineer role where I can contribute to meaningful product development and continuous technical growth.</p>
+
+                <div class="hero-buttons">
+                    <a href="Sridivya_Nagendiran_Resume.pdf" class="btn btn-primary animate-btn" download="Sridivya_Nagendiran_Resume.pdf" target="_blank">
+                        <i class="bi bi-download me-2"></i> Download Resume
+                    </a>
+                    <a href="#projects" class="btn btn-outline-primary animate-btn see-projects">
+                        <i class="bi bi-code-slash"></i> See Projects
+                    </a>
+                </div>
+
+                <!-- Social Icons in Home -->
+                <div class="home-social-icons">
+                    <a href="https://www.linkedin.com/in/n-sridivya-nagendiran" target="_blank" class="home-social-icon" aria-label="LinkedIn">
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+                    <a href="mailto:sridivyanagendiran@gmail.com" class="home-social-icon" aria-label="Email">
+                        <i class="bi bi-envelope-fill"></i>
+                    </a>
+                    <a href="https://github.com/Sridivya-Nagendrian" target="_blank" class="home-social-icon" aria-label="GitHub">
+                        <i class="bi bi-github"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- PROFILE IMAGE - Appears first on mobile -->
+            <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-center align-items-center order-lg-2 order-1">
+                <div class="hero-img-circle" id="profile-image">
+                    <div class="image-container">
+                        <img src="Images/sridivya.jpeg" class="hero-img" alt="Sridivya N - Programmer Analyst Profile">
+                    </div>
+                    <div class="profile-animation-ring"></div>
+                    <div class="profile-animation-ring ring-2"></div>
+                    <div class="profile-animation-ring ring-3"></div>
+                    <!-- New floating elements -->
+                    <div class="floating-element element-1"></div>
+                    <div class="floating-element element-2"></div>
+                    <div class="floating-element element-3"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Scroll Indicator -->
+        <div class="scroll-indicator">
+          <a href="#skills" class="scroll-down">
+            <span class="scroll-text">Scroll Down</span>
+            <div class="scroll-arrow">
+              <i class="bi bi-chevron-down"></i>
+            </div>
+          </a>
+        </div>
+    </div>
+  </section>
+
+  <!-- SKILLS SECTION -->
+  <section class="section skills-section" id="skills">
+    <div class="container-fluid px-lg-5 px-3">
+        <div class="section-header">
+            <h2 class="section-title">TECHNICAL SKILLS</h2>
+            <p class="section-subtitle">Technologies I work with</p>
+        </div>
+
+        <div class="skills-grid">
+            <!-- Frontend Skills -->
+            <div class="skill-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="skill-icon-wrapper">
+                    <i class="devicon-html5-plain colored skill-icon"></i>
+                </div>
+                <h4>HTML5</h4>
+                <div class="skill-progress">
+                    <div class="progress-bar" style="width: 95%"></div>
+                </div>
+                <div class="skill-percentage">95%</div>
+            </div>
+
+            <div class="skill-card" data-aos="fade-up" data-aos-delay="150">
+                <div class="skill-icon-wrapper">
+                    <i class="devicon-css3-plain colored skill-icon"></i>
+                </div>
+                <h4>CSS3</h4>
+                <div class="skill-progress">
+                    <div class="progress-bar" style="width: 90%"></div>
+                </div>
+                <div class="skill-percentage">90%</div>
+            </div>
+
+            <div class="skill-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="skill-icon-wrapper">
+                    <i class="devicon-javascript-plain colored skill-icon"></i>
+                </div>
+                <h4>JavaScript</h4>
+                <div class="skill-progress">
+                    <div class="progress-bar" style="width: 80%"></div>
+                </div>
+                <div class="skill-percentage">80%</div>
+            </div>
+
+            <div class="skill-card" data-aos="fade-up" data-aos-delay="250">
+                <div class="skill-icon-wrapper">
+                    <i class="devicon-bootstrap-plain colored skill-icon"></i>
+                </div>
+                <h4>Bootstrap</h4>
+                <div class="skill-progress">
+                    <div class="progress-bar" style="width: 92%"></div>
+                </div>
+                <div class="skill-percentage">92%</div>
+            </div>
+
+            <!-- Backend Skills -->
+            <div class="skill-card" data-aos="fade-up" data-aos-delay="300">
+                <div class="skill-icon-wrapper">
+                    <i class="devicon-dot-net-plain colored skill-icon"></i>
+                </div>
+                <h4>ASP.NET</h4>
+                <div class="skill-progress">
+                    <div class="progress-bar" style="width: 75%"></div>
+                </div>
+                <div class="skill-percentage">75%</div>
+            </div>
+
+            <div class="skill-card" data-aos="fade-up" data-aos-delay="350">
+                <div class="skill-icon-wrapper">
+                    <i class="devicon-java-plain colored skill-icon"></i>
+                </div>
+                <h4>Java</h4>
+                <div class="skill-progress">
+                    <div class="progress-bar" style="width: 70%"></div>
+                </div>
+                <div class="skill-percentage">70%</div>
+            </div>
+
+            <!-- Database Skills -->
+            <div class="skill-card" data-aos="fade-up" data-aos-delay="400">
+                <div class="skill-icon-wrapper">
+                    <i class="devicon-mysql-plain colored skill-icon"></i>
+                </div>
+                <h4>MySQL</h4>
+                <div class="skill-progress">
+                    <div class="progress-bar" style="width: 88%"></div>
+                </div>
+                <div class="skill-percentage">88%</div>
+            </div>
+
+            <div class="skill-card" data-aos="fade-up" data-aos-delay="450">
+                <div class="skill-icon-wrapper">
+                    <i class="devicon-microsoftsqlserver-plain colored skill-icon"></i>
+                </div>
+                <h4>SQL Server</h4>
+                <div class="skill-progress">
+                    <div class="progress-bar" style="width: 78%"></div>
+                </div>
+                <div class="skill-percentage">78%</div>
+            </div>
+
+            <div class="skill-card" data-aos="fade-up" data-aos-delay="500">
+                <div class="skill-icon-wrapper">
+                    <i class="devicon-postgresql-plain colored skill-icon"></i>
+                </div>
+                <h4>PostgreSQL</h4>
+                <div class="skill-progress">
+                    <div class="progress-bar" style="width: 76%"></div>
+                </div>
+                <div class="skill-percentage">76%</div>
+            </div>
+
+            <!-- Tools -->
+            <div class="skill-card" data-aos="fade-up" data-aos-delay="550">
+                <div class="skill-icon-wrapper">
+                    <i class="devicon-vscode-plain colored skill-icon"></i>
+                </div>
+                <h4>VS Code</h4>
+                <div class="skill-progress">
+                    <div class="progress-bar" style="width: 94%"></div>
+                </div>
+                <div class="skill-percentage">94%</div>
+            </div>
+
+            <div class="skill-card" data-aos="fade-up" data-aos-delay="600">
+                <div class="skill-icon-wrapper">
+                    <i class="devicon-github-original skill-icon"></i>
+                </div>
+                <h4>GitHub</h4>
+                <div class="skill-progress">
+                    <div class="progress-bar" style="width: 82%"></div>
+                </div>
+                <div class="skill-percentage">82%</div>
+            </div>
+
+            <div class="skill-card" data-aos="fade-up" data-aos-delay="650">
+                <div class="skill-icon-wrapper">
+                    <i class="bi bi-code-slash skill-icon"></i>
+                </div>
+                <h4>Low-Code / No-Code</h4>
+                <div class="skill-progress">
+                    <div class="progress-bar" style="width: 72%"></div>
+                </div>
+                <div class="skill-percentage">72%</div>
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE SECTION -->
+  <section class="section experience-section" id="experience">
+    <div class="container-fluid px-lg-5 px-3">
+        <div class="section-header">
+            <h2 class="section-title">PROFESSIONAL EXPERIENCE</h2>
+            <p class="section-subtitle">My career journey</p>
+        </div>
+        
+        <div class="timeline">
+            <!-- Programmer Analyst -->
+            <div class="timeline-item" data-aos="fade-right">
+                <div class="timeline-content">
+                    <div class="timeline-date">JUL 2025 – PRESENT</div>
+                    <h3 class="timeline-title">Programmer Analyst <span class="badge current">Current</span></h3>
+                    <div class="timeline-company">
+                        <a href="https://www.sterlo.io/" target="_blank">STERLO</a>
+                    </div>
+                    <p class="timeline-description">
+                        Contributing to Agile development projects with focus on debugging, production support, and technical solution implementation.
+                    </p>
+                    
+                    <div class="timeline-responsibilities">
+                        <h4>Key Responsibilities:</h4>
+                        <ul>
+                            <li><i class="bi bi-check-circle"></i> Participated in Agile sprint planning, daily stand-ups, and retrospectives</li>
+                            <li><i class="bi bi-check-circle"></i> Converted business requirements into clear and effective technical solutions</li>
+                            <li><i class="bi bi-check-circle"></i> Developed optimized SQL queries and integrated REST APIs for applications</li>
+                            <li><i class="bi bi-check-circle"></i> Handled debugging, root cause analysis, and production support activities</li>
+                            <li><i class="bi bi-check-circle"></i> Collaborated with QA, BA, and development teams to deliver quality solutions</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="timeline-tech">
+                        <span class="tech-tag">Agile</span>
+                        <span class="tech-tag">SDLC</span>
+                        <span class="tech-tag">SQL</span>
+                        <span class="tech-tag">API</span>
+                        <span class="tech-tag">PostgreSQL</span>
+                        <span class="tech-tag">Production Support</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Trainee -->
+            <div class="timeline-item" data-aos="fade-left">
+                <div class="timeline-content">
+                    <div class="timeline-date">FEB 2025 – JUN 2025</div>
+                    <h3 class="timeline-title">Trainee <span class="badge training">Training</span></h3>
+                    <div class="timeline-company">
+                        <a href="https://www.sterlo.io/" target="_blank">STERLO</a>
+                    </div>
+                    <p class="timeline-description">
+                        Supported frontend development and learned industry practices under senior developer guidance.
+                    </p>
+                    
+                    <div class="timeline-responsibilities">
+                        <h4>Key Responsibilities:</h4>
+                        <ul>
+                            <li><i class="bi bi-check-circle"></i> Supported frontend development using HTML/CSS/JavaScript for internal applications</li>
+                            <li><i class="bi bi-check-circle"></i> Built responsive UI layouts ensuring cross-browser compatibility and usability</li>
+                            <li><i class="bi bi-check-circle"></i> Assisted in data migration, validation, and low-code workflow configuration</li>
+                            <li><i class="bi bi-check-circle"></i> Debugged UI and functional issues under senior developer guidance</li>
+                            <li><i class="bi bi-check-circle"></i> Followed SDLC practices, coding standards, and documentation guidelines</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="timeline-tech">
+                        <span class="tech-tag">HTML/CSS</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">UI Development</span>
+                        <span class="tech-tag">Data Migration</span>
+                        <span class="tech-tag">SQL</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS SECTION -->
+  <section class="section projects-section" id="projects">
+    <div class="container-fluid px-lg-5 px-3">
+        <div class="section-header">
+            <h2 class="section-title">PROJECTS</h2>
+            <p class="section-subtitle">Some of my recent work</p>
+        </div>
+        
+        <div class="projects-grid">
+            <!-- Project 1 -->
+            <div class="project-card" data-aos="zoom-in">
+                <div class="project-content">
+                    <div class="project-header">
+                        <div class="project-badge academic">Academic</div>
+                        <i class="bi bi-cloud-fill project-main-icon"></i>
+                    </div>
+                    <h3 class="project-title">Security & Privacy Enhanced Two-Cloud System</h3>
+                    <p class="project-description">
+                        A secure cloud-based system using ASP.NET and SQL Server implementing encrypted data storage and role-based access control across dual cloud environments.
+                    </p>
+                    
+                    <div class="project-tech">
+                        <span class="tech-tag">ASP.NET</span>
+                        <span class="tech-tag">SQL Server</span>
+                        <span class="tech-tag">Encryption</span>
+                    </div>
+                    
+                    <div class="project-features">
+                        <h4>Key Features:</h4>
+                        <ul>
+                            <li><i class="bi bi-shield-check"></i> AES-256 encryption for data security</li>
+                            <li><i class="bi bi-people-fill"></i> Role-based access control with 5 permission levels</li>
+                            <li><i class="bi bi-arrow-left-right"></i> Secure data synchronization between dual cloud systems</li>
+                            <li><i class="bi bi-clipboard-data"></i> Comprehensive audit trails and activity logging</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="project-impact">
+                        <i class="bi bi-graph-up-arrow"></i>
+                        <span>Ensured 99.9% data security compliance through robust encryption and access controls.</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Project 2 -->
+            <div class="project-card" data-aos="zoom-in" data-aos-delay="200">
+                <div class="project-content">
+                    <div class="project-header">
+                        <div class="project-badge official">Official</div>
+                        <i class="bi bi-kanban-fill project-main-icon"></i>
+                    </div>
+                    <h3 class="project-title">Client Dashboard System</h3>
+                    <p class="project-description">
+                        Developed a comprehensive low-code platform integrating workflow automation, client data dashboards, queries migration, and API integration services for enterprise clients.
+                    </p>
+                    
+                    <div class="project-tech">
+                        <span class="tech-tag">Low-Code Platform</span>
+                        <span class="tech-tag">MySQL</span>
+                        <span class="tech-tag">PostgreSQL</span>
+                        <span class="tech-tag">API Integration</span>
+                    </div>
+                    
+                    <div class="project-features">
+                        <h4>Key Features:</h4>
+                        <ul>
+                            <li><i class="bi bi-robot"></i> Automated workflows reducing manual processing by 60%</li>
+                            <li><i class="bi bi-bar-chart-fill"></i> Interactive dashboards with real-time data visualization</li>
+                            <li><i class="bi bi-database-check"></i> Database migration between PostgreSQL and MySQL systems</li>
+                            <li><i class="bi bi-plug"></i> External API integration for enhanced platform functionality</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="project-impact">
+                        <i class="bi bi-lightning-charge"></i>
+                        <span>Increased operational efficiency by 50% while reducing manual processing time by 70%.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section class="section contact-section" id="contact">
+    <div class="container-fluid px-lg-5 px-3">
+        <div class="section-header">
+            <h2 class="section-title">CONTACT ME</h2>
+            <p class="section-subtitle">Let's work together</p>
+        </div>
+        
+        <div class="contact-wrapper">
+            <!-- Contact Form -->
+            <div class="contact-form-container" data-aos="fade-right">
+                <h3 class="contact-form-title">Send a Message</h3>
+                <form id="contactForm" class="contact-form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Your Name" required>
+                        <i class="bi bi-person form-icon"></i>
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Your Email" required>
+                        <i class="bi bi-envelope form-icon"></i>
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Subject">
+                        <i class="bi bi-card-text form-icon"></i>
+                    </div>
+                    
+                    <div class="form-group">
+                        <textarea class="form-control" rows="4" placeholder="Your Message" required></textarea>
+                        <i class="bi bi-chat-left-text form-icon"></i>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary submit-btn">
+                        <i class="bi bi-send-fill me-2"></i> SEND MESSAGE
+                    </button>
+                </form>
+            </div>
+            
+            <!-- Contact Info -->
+            <div class="contact-info-container" data-aos="fade-left">
+                <h3 class="contact-info-title">Get In Touch</h3>
+                
+                <div class="contact-info-list">
+                    <div class="contact-info-item">
+                        <div class="contact-icon">
+                            <i class="bi bi-envelope-fill"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>sridivyanagendiran@gmail.com</p>
+                            <a href="mailto:sridivyanagendiran@gmail.com" class="contact-link">
+                                <i class="bi bi-arrow-right"></i> Send Email
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-info-item">
+                        <div class="contact-icon">
+                            <i class="bi bi-telephone-fill"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <p>+91 63690 39328</p>
+                            <button class="contact-link" id="whatsappBtn">
+                                <i class="bi bi-whatsapp"></i> Chat on WhatsApp
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-info-item">
+                        <div class="contact-icon">
+                            <i class="bi bi-linkedin"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>LinkedIn</h4>
+                            <p>Connect professionally</p>
+                            <a href="https://www.linkedin.com/in/n-sridivya-nagendiran" target="_blank" class="contact-link">
+                                <i class="bi bi-arrow-up-right"></i> Visit Profile
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-note">
+                    <i class="bi bi-info-circle"></i>
+                    <p>Feel free to reach out for opportunities, collaborations, or just to say hello!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+</main>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <p class="footer-text">Programmer Analyst & Junior Software Engineer</p>
+            
+            <div class="footer-social">
+                <a href="https://www.linkedin.com/in/n-sridivya-nagendiran" target="_blank" class="footer-social-icon">
+                    <i class="bi bi-linkedin"></i>
+                </a>
+                <a href="https://github.com/Sridivya-Nagendrian" target="_blank" class="footer-social-icon">
+                    <i class="bi bi-github"></i>
+                </a>
+                <a href="mailto:sridivyanagendiran@gmail.com" class="footer-social-icon">
+                    <i class="bi bi-envelope-fill"></i>
+                </a>
+            </div>
+            
+            <p class="footer-copyright">
+                &copy; <span id="currentYear"></span> Sridivya N. All rights reserved.
+            </p>
+        </div>
+    </div>
+</footer>
+
+<!-- LOADING OVERLAY -->
+<div id="form-overlay" class="form-overlay">
+  <div class="loader-box">
+    <div class="spinner"></div>
+    <p>Sending message...</p>
+  </div>
+</div>
+
+<!-- SUCCESS MODAL -->
+<div id="success-modal" class="success-modal">
+  <div class="success-box">
+    <h3>Message Sent Successfully! ✅</h3>
+    <p>Thank you for contacting me! I'll get back to you soon.</p>
+    <button id="successOk" class="btn btn-primary">OK</button>
+  </div>
+</div>
+
+<!-- JavaScript -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+<!-- INLINE JAVASCRIPT -->
+<script>
+// Fix for jQuery easing before GSAP loads
+if (typeof jQuery !== 'undefined') {
+    jQuery.extend(jQuery.easing, {
+        easeInOutQuad: function(x, t, b, c, d) {
+            if ((t /= d / 2) < 1) return c / 2 * t * t + b;
+            return -c / 2 * ((--t) * (t - 2) - 1) + b;
+        },
+        easeInOutCubic: function(x, t, b, c, d) {
+            if ((t /= d / 2) < 1) return c / 2 * t * t * t + b;
+            return c / 2 * ((t -= 2) * t * t + 2) + b;
+        }
+    });
+}
+</script>
+
+<script src="main.js"></script>
+
+
+</body>
+</html>
